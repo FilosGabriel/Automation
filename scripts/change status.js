@@ -12,3 +12,4 @@ function setAutoLogin() {
         localStorage.setItem("autologin", "true");
     }
 }
+setAutoLogin()
