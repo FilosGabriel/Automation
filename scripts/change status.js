@@ -4,11 +4,11 @@ function setAutoLogin() {
         localStorage.setItem("autologin", "true");
         return;
     }
-    if (status.localeCompare("true")) {
+    if (status.localeCompare("true")===0) {
         localStorage.setItem("autologin", "false");
         return;
     }
-    if (status.localeCompare("false")) {
+    if (status.localeCompare("false")===0) {
         localStorage.setItem("autologin", "true");
     }
 }
