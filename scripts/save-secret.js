@@ -3,4 +3,4 @@ function saveSecret() {
     localStorage.setItem("secretTOTP", secret);
 }
 
-windows.onload=saveSecret();
+window.onload=saveSecret();
